@@ -10,6 +10,12 @@ module.exports = {
         publisherId: `ca-pub-8241145315698443`
       },
     },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `cjoshmartin-2`
+      }
+    },
   ],
   // Customize your site metadata:
   siteMetadata: {
